@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Image Gallery</title>
+    <link rel="stylesheet" href="week5_ex02_style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Dynamic Image Gallery</h1>
+      <!-- Filter Buttons (Flexbox) -->
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="landscapes">Landscapes</button>
+        <button class="filter-btn" data-filter="portraits">Portraits</button>
+        <button class="filter-btn" data-filter="architecture">
+          Architecture
+        </button>
+      </div>
+    </header>
+
+    <!-- Image Grid Container (12 Images) -->
+    <main class="gallery-grid">
+      <!-- Card 1 -->
+      <div class="gallery-card" data-category="landscapes">
+        <img src="https://via.placeholder.com/400x300" alt="Mountain View" />
+        <div class="card-content">
+          <span class="category-tag">Landscapes</span>
+          <h3>Mountain View</h3>
+        </div>
+        <div class="overlay">
+          <p>A breathtaking view of mountain peaks during sunrise.</p>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="gallery-card" data-category="portraits">
+        <img src="https://via.placeholder.com/400x300" alt="Studio Portrait" />
+        <div class="card-content">
+          <span class="category-tag">Portraits</span>
+          <h3>Studio Portrait</h3>
+        </div>
+        <div class="overlay">
+          <p>Professional dramatic lighting studio portrait session.</p>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="gallery-card" data-category="architecture">
+        <img
+          src="https://via.placeholder.com/400x300"
+          alt="Modern Skyscraper"
+        />
+        <div class="card-content">
+          <span class="category-tag">Architecture</span>
+          <h3>Modern Skyscraper</h3>
+        </div>
+        <div class="overlay">
+          <p>Geometric glass facade of a downtown skyscraper.</p>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="gallery-card" data-category="landscapes">
+        <img src="https://via.placeholder.com/400x300" alt="Serene Lake" />
+        <div class="card-content">
+          <span class="category-tag">Landscapes</span>
+          <h3>Serene Lake</h3>
+        </div>
+        <div class="overlay">
+          <p>Mirror-like water reflection of surrounding pine trees.</p>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="gallery-card" data-category="portraits">
+        <img src="https://via.placeholder.com/400x300" alt="Outdoor Portrait" />
+        <div class="card-content">
+          <span class="category-tag">Portraits</span>
+          <h3>Outdoor Portrait</h3>
+        </div>
+        <div class="overlay">
+          <p>Candid golden hour portrait in an open field.</p>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="gallery-card" data-category="architecture">
+        <img src="https://via.placeholder.com/400x300" alt="Historic Bridge" />
+        <div class="card-content">
+          <span class="category-tag">Architecture</span>
+          <h3>Historic Bridge</h3>
+        </div>
+        <div class="overlay">
+          <p>Intricate suspension details of a century-old bridge.</p>
+        </div>
+      </div>
+
+      <!-- Card 7 -->
+      <div class="gallery-card" data-category="landscapes">
+        <img src="https://via.placeholder.com/400x300" alt="Desert Dunes" />
+        <div class="card-content">
+          <span class="category-tag">Landscapes</span>
+          <h3>Desert Dunes</h3>
+        </div>
+        <div class="overlay">
+          <p>Rolling sand dunes under a clear blue desert sky.</p>
+        </div>
+      </div>
+
+      <!-- Card 8 -->
+      <div class="gallery-card" data-category="portraits">
+        <img src="https://via.placeholder.com/400x300" alt="Urban Portrait" />
+        <div class="card-content">
+          <span class="category-tag">Portraits</span>
+          <h3>Urban Portrait</h3>
+        </div>
+        <div class="overlay">
+          <p>Moody street-style portrait with city background blur.</p>
+        </div>
+      </div>
+
+      <!-- Card 9 -->
+      <div class="gallery-card" data-category="architecture">
+        <img
+          src="https://via.placeholder.com/400x300"
+          alt="Minimalist Interior"
+        />
+        <div class="card-content">
+          <span class="category-tag">Architecture</span>
+          <h3>Minimalist Interior</h3>
+        </div>
+        <div class="overlay">
+          <p>Clean lines and neutral tones in modern interior design.</p>
+        </div>
+      </div>
+
+      <!-- Card 10 -->
+      <div class="gallery-card" data-category="landscapes">
+        <img src="https://via.placeholder.com/400x300" alt="Forest Waterfall" />
+        <div class="card-content">
+          <span class="category-tag">Landscapes</span>
+          <h3>Forest Waterfall</h3>
+        </div>
+        <div class="overlay">
+          <p>Flowing cascade hidden deep within a lush green forest.</p>
+        </div>
+      </div>
+
+      <!-- Card 11 -->
+      <div class="gallery-card" data-category="portraits">
+        <img
+          src="https://via.placeholder.com/400x300"
+          alt="Close-up Portrait"
+        />
+        <div class="card-content">
+          <span class="category-tag">Portraits</span>
+          <h3>Close-up Portrait</h3>
+        </div>
+        <div class="overlay">
+          <p>Detailed facial portrait highlighting natural lighting.</p>
+        </div>
+      </div>
+
+      <!-- Card 12 -->
+      <div class="gallery-card" data-category="architecture">
+        <img src="https://via.placeholder.com/400x300" alt="Gothic Cathedral" />
+        <div class="card-content">
+          <span class="category-tag">Architecture</span>
+          <h3>Gothic Cathedral</h3>
+        </div>
+        <div class="overlay">
+          <p>Stunning stone archways and historic Gothic architecture.</p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
