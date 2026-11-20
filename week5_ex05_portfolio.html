@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jadon Heuvel — Front-End Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="week5_ex05_style.css" />
+  </head>
+  <body>
+    <div class="page-grid">
+      <!-- Navigation Bar -->
+      <header class="site-header">
+        <nav class="navbar container">
+          <a href="#hero" class="brand-logo">JH<span>.DEV</span></a>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Main Content -->
+      <main class="main-content">
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+          <div class="hero-inner container">
+            <p class="hero-eyebrow">FRONT-END WEB DEVELOPER • CAPE TOWN</p>
+            <h1 class="hero-title">Jadon Heuvel</h1>
+            <p class="hero-tagline">
+              Building clean, responsive web interfaces with modern HTML, CSS
+              Grid, Flexbox, and practical technical problem-solving.
+            </p>
+            <a href="#projects" class="btn btn-primary">Explore My Work</a>
+          </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section container">
+          <h2 class="section-title">About Me</h2>
+          <div class="about-layout">
+            <div class="about-image-wrap">
+              <img
+                src="https://placehold.co/360x360/1e293b/2db0b9?text=Jadon+Heuvel"
+                alt="Portrait placeholder for Jadon Heuvel"
+                class="profile-img"
+              />
+            </div>
+            <div class="about-text">
+              <h3>Turning Ideas Into Structured, Responsive Web Experiences</h3>
+              <p>
+                I am a Front-End Web Development student at Life Choices Academy
+                in Cape Town with a strong foundation in electrical engineering
+                principles, off-grid technical systems, and hands-on hardware
+                troubleshooting.
+              </p>
+              <p>
+                My focus is writing clean, maintainable semantic HTML and pure
+                CSS layouts that perform smoothly across desktop, tablet, and
+                mobile screens.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section container">
+          <h2 class="section-title">Technical Skills</h2>
+          <div class="skills-flex">
+            <div class="skill-pill">HTML5 Semantic Markup</div>
+            <div class="skill-pill">CSS3 Grid &amp; Flexbox</div>
+            <div class="skill-pill">Responsive Media Queries</div>
+            <div class="skill-pill">JavaScript Fundamentals</div>
+            <div class="skill-pill">Python Programming</div>
+            <div class="skill-pill">Git &amp; GitHub Workflow</div>
+            <div class="skill-pill">UI Layout &amp; Prototyping</div>
+            <div class="skill-pill">Technical Troubleshooting</div>
+          </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section container">
+          <h2 class="section-title">Featured Projects</h2>
+          <div class="projects-grid">
+            <article class="project-card">
+              <h3>Apex Power Tools Showcase</h3>
+              <p>
+                A pure-CSS industrial tool catalog featuring keyframe
+                animations, skew transforms, and responsive multi-column cards
+                priced in ZAR.
+              </p>
+              <a href="#" class="project-link">View Project &rarr;</a>
+            </article>
+
+            <article class="project-card">
+              <h3>Multi-Page Bootstrap Store</h3>
+              <p>
+                A four-page storefront built with Bootstrap 5 grid utilities,
+                interactive carousels, dismissible promo alerts, and Animate.css
+                transitions.
+              </p>
+              <a href="#" class="project-link">View Project &rarr;</a>
+            </article>
+
+            <article class="project-card">
+              <h3>Tech Insights Blog Layout</h3>
+              <p>
+                A structured multi-post editorial web layout focusing on clean
+                typography hierarchy, visual spacing, and accessible navigation.
+              </p>
+              <a href="#" class="project-link">View Project &rarr;</a>
+            </article>
+
+            <article class="project-card">
+              <h3>Python CLI Logic Suite</h3>
+              <p>
+                A collection of modular Python scripts demonstrating custom
+                functions, loops, conditional branching, and structured
+                dictionary data handling.
+              </p>
+              <a href="#" class="project-link">View Project &rarr;</a>
+            </article>
+          </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section container">
+          <h2 class="section-title">Get In Touch</h2>
+          <form class="contact-form" action="#" method="get">
+            <div class="form-group">
+              <label for="contactName">Name</label>
+              <input
+                type="text"
+                id="contactName"
+                name="name"
+                placeholder="Your full name"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="contactEmail">Email</label>
+              <input
+                type="email"
+                id="contactEmail"
+                name="email"
+                placeholder="you@example.com"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="contactMessage">Message</label>
+              <textarea
+                id="contactMessage"
+                name="message"
+                rows="5"
+                placeholder="Write your message here..."
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </section>
+      </main>
+
+      <!-- Footer -->
+      <footer class="site-footer">
+        <div class="container footer-row">
+          <p>&copy; 2026 Jadon Heuvel. All rights reserved.</p>
+          <p>Built with Pure CSS Grid &amp; Flexbox</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
